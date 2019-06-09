@@ -62,7 +62,7 @@ Na sobreposição é **necessário que os métodos tenham a mesma assinatura** (
 
 ## Sobrescrita
 
-O Polimorfismo de Sobrescrita (override) é a permissão de reescrever um método em uma subclasse que possua um comportamente diferente do método de mesma assinatura na superclasse.
+O Polimorfismo de Sobrescrita (override), algumas vezes descrito como Sobreposição (override) é a permissão de reescrever um método em uma subclasse que possua um comportamente diferente do método de mesma assinatura na superclasse.
 
 Simplificando: uma classe filha pode reescrever os métodos implementados previamente na classe pai, ou seja, **uma classe filha pode redefinir métodos herdados de suas descendentes, mantendo o nome e a assinatura.**
 
