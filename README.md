@@ -5,6 +5,7 @@
 3. [Sobrescrita](#Sobrescrita)
 4. [Abstração](#Abstração)
 5. [Interface](#Interface)
+6. [Casting](#Casting)
 
 ## Revisão
 
@@ -246,3 +247,37 @@ public class Caneta : ICaneta {
 - As interfaces podem conter propriedades, indexadores, métodos e eventos.
 - As interfaces não têm implementações de métodos.
 - Uma classe ou struct pode implementar várias interfaces. - Uma classe pode herdar uma classe base e também implementar uma ou mais interfaces.
+
+## Casting
+
+A definição da Microsoft:
+
+> Como o C# é tipado estaticamente no tempo de compilação, depois que uma variável é declarada, ela não pode ser declarada novamente ou atribuída a um valor de outro tipo, a menos que esse tipo possa ser convertido implicitamente no tipo da variável. Por exemplo, a string não pode ser convertida implicitamente em int. Portanto, depois de declarar i como um int, não é possível atribuir a cadeia de caracteres "Hello" a ele.
+> No entanto, às vezes é necessário copiar um valor para uma variável ou um parâmetro de método de outro tipo. Por exemplo, você pode ter que passar uma variável de inteiro para um método cujo parâmetro é digitado como double. Ou talvez precise atribuir uma variável de classe a uma variável de um tipo de interface. Esses tipos de operações são chamados de conversões de tipo.
+
+## General Casting
+
+Não vou estender a explicação demais para não confudir com o conteúdo de prova, mas casting basicamente é:
+
+```cs
+public string numeroStr = "3";              // String "3"
+public int numeroInt = (int) numeroStr;     // Int 3
+```
+
+## Upcasting e Downcasting
+
+Upcasting converte um objeto de um tipo específico para outro geral. Downcasting faz o inverso. Exemplo:
+
+```cs
+BankAccount    ba1, ba2 =   new BankAccount("John", 250.0M, 0.01);
+LotteryAccount la1, la2 =   new LotteryAccount("Bent", 100.0M);
+
+ba1 = la2;                      // upcasting   - OK
+//  la1 = ba2;                  // downcasting - Illegal 
+                                //   discovered at compile time
+//  la1 = (LotteryAccount)ba2;  // downcasting - Illegal
+                                //   discovered at run time
+la1 = (LotteryAccount)ba1;      // downcasting - OK 
+                                //   ba1 already refers to a LotteryAccount
+
+```
