@@ -92,6 +92,10 @@ public class Cientifica : Calculadora {
 }
 ```
 
+***OBS:**Apesar de não utilizarmos o override aqui, a sobrescrita vai ocorrer, já que estamos tratando uma classe abstrata, entretanto o compilador retornará uma
+mensagem de aviso relativo a sobrescrita forçada pelo nome, o que não é uma boa prática. Utilizem a abstração ou virtualização em casos reais, saliento que este foi
+apenas um dos exemplo.*
+
 ## Abstração
 
 Como demonstrado anteriormente nos exemplos, as classes abstratas criam superclasses ou possibilitam a Sobrescrita de atributos e métodos. Devemos saber que:
