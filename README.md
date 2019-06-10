@@ -59,7 +59,7 @@ public class Calculadora{
 
 O programa é capaz de identificar qual dos métodos será executado com base nos parâmetros utilizados na chamada do método.
 
-Na sobreposição é **necessário que os métodos tenham a mesma assinatura** (tipo de retorno, nome do método, tipos e quantidades de parâmetros), mas com **implementações diferentes.**
+Na sobreposição é **necessário que os métodos tenham a mesma assinatura**, mas com **implementações diferentes.**
 
 ## Sobrescrita
 
