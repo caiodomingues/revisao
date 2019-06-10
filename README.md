@@ -83,7 +83,7 @@ E em uma classe filha:
 
 ```cs
 public class Cientifica : Calculadora {
-    public override int calcula(int a, int b) {
+    public int calcula(int a, int b) {
         if (a >= 0 && b >= 0) {
             System.out.println("Número positivos.");
         }
