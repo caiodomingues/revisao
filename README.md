@@ -146,14 +146,115 @@ id_emrpesa e id_cidade em `funcionario`. Por fim, retornamos os funcionários qu
 
 ## PL/SQL
 
+### Procedure e Function
+
+Uma function é um bloco PL/SQL muito semelhante a uma procedure. O que podemos entender de início entre esses dois tipos de blocos é que os blocos functions retornam valores e as procedures podem ou não retornar um valor. As functions tem duas características que diferem das procedures, as quais não podemos deixar de tratar:
+
+- As functions sempre retornam valores
+- Functions são usadas como parte de uma expressão.
+
+```sql
+CREATE [OR REPLACE] FUNCTION function_name
+  [(parameter_name [IN | OUT | IN OUT] type [, ...])]
+  RETURN return_datatype
+  {IS | AS}
+  BEGIN
+     < function_body >
+  END [function_name];
+```
+
+- CREATE [OR REPLACE] FUNCTION: Caso uma function já exista com o mesmo nome, ela será reescrita devido ao termo ‘replace’. Caso contrário, ela será criada de acordo com o termo ‘create’.
+- Function_name: Será o nome atribuído para essa função.
+- Parameters: a lista opcional de parâmetros contém os nomes, os modos e os tipos que esses parâmetros terão. O IN representa o valor que será passado de fora, já o OUT representa que este parâmetro será utilizado para retornar um valor de fora do procedimento.
+- Return_datatype: é o tipo de retorno que será utilizado, sendo este SQL ou PL/SQL. Podemos neste caso utilizar referências como o %TYPE ou %ROWTYPE se necessário, ou mesmo utilizar qualquer tipo de dados escalar ou composto.
+- IS/AS: por convecção, temos o ‘is’ para a criação de funções armazenadas e o ‘as’ quando criamos pacotes (packages).
+- function_body: contém o bloco PL/SQL que inicia com a claúsula BEGIN e finaliza com END [function_name], e executa neste momento todas as instruções necessárias.
+
+```sql
+CREATE OR REPLACE FUNCTION primeiro_nome_func
+  RETURN VARCHAR(20);
+ IS 
+  emp_name VARCHAR(20); 
+BEGIN 
+SELECT primeiro_nome INTO emp_name
+ FROM funcionarios_tbl WHERE ID = 90;
+ RETURN emp_name;
+END;
+/
+```
+
+Há 3 formas de executar o código:
+
+- Variável: `func_nome :=  primeiro_nome_func;`
+- Select: `SELECT primeiro_nome_func FROM dual;`
+- PL/SQL: `dbms_output.put_line(primeiro_nome_func);`
+
 ### Variáveis
 
-> n sei se cai
+Resumidamente: utilizadas para valores pré-determinados ou serem salvos e reutilizados em outras partes do código.
 
-### Procedure
+```sql
+DECLARE
+  var_dividend NUMBER := 24;
+  var_divisor NUMBER := 0;
+  var_result NUMBER;
+BEGIN
+...
+END
+```
 
-### Function
+Exemplo de uso em Procedure:
+
+```sql
+CREATE OR REPLACE PROCEDURE emp_sal_query (
+    p_empno         IN CHAR(6)
+)
+IS
+    v_lastname      VARCHAR2(15);
+    v_job           VARCHAR2(8);
+    v_hiredate      DATE;
+    v_salary        NUMBER(9,2);
+    v_workdept      CHAR(3);
+    v_avgsal        NUMBER(9,2);
+BEGIN
+...
+END
+```
+
+#### %TYPE
+
+Nas variáveis, declaramos o tipo dela, como no exemplo anterior com o uso do modificador `NUMBER`, mas, caso queira fazer com que uma 
+variável seja uma espécie "referência" ao mesmo tipo de dado::
+
+```sql
+CREATE OR REPLACE PROCEDURE emp_sal_query (
+    p_empno         IN emp.empno%TYPE
+)
+IS
+    v_lastname      emp.lastname%TYPE;
+    v_job           emp.job%TYPE;
+    v_hiredate      emp.hiredate%TYPE;
+    v_salary        emp.salary%TYPE;
+    v_workdept      emp.workdept%TYPE;
+    v_avgsal        v_salary%TYPE;
+BEGIN
+...
+END
+```
 
 ### Exceptions
 
-> n sei se cai
+Exceptions são resultantes de erros, elas podem ser tratadas por meio do modificar `EXCEPTION`
+
+```sql
+DECLARE
+   pe_ratio NUMBER(3,1);
+BEGIN
+   ...
+EXCEPTION  -- Bloco de Exceptions
+   WHEN ZERO_DIVIDE THEN  -- Trata erros de 'divisão por zero'
+   ...
+   WHEN OTHERS THEN  -- Trata todos os outros erros
+   ...
+END;  -- Exceptions e o Bloco terminam aqui
+```
