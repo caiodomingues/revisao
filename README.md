@@ -9,7 +9,7 @@
 >_**AVISO:** Eu não sei todo o conteúdo que vai cair na prova, escrevi somente o que me disseram que iria cair e o que deu tempo de escrever (¯\\\_(ツ )\_/¯). Rolaram uns boatos de Joins etc, mas, não tenho tempo de escrever tanta coisa assim, é noix :thumbsup:_
 
 
-Considere a seguinte tabela para este estudo:
+Considere a seguinte tabela para alguns exemplos do conteúdo:
 
 ```sql
 CREATE TABLE funcionarios (...)
