@@ -1,4 +1,4 @@
 # Revisão
 
-- [Programação Orientada a Objetos](poo.md)
-- [Banco de Dados](bd.md)
+- [Programação Orientada a Objetos](POO.md)
+- [Banco de Dados](BD.md)
