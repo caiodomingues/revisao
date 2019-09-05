@@ -1,4 +1,4 @@
-# Revisão - BD
+# Revisão
 
 1. [SubQuery](#SubQuery)
 2. [View](#View)

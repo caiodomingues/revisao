@@ -1,4 +1,4 @@
-# Revisão - POO
+# Revisão
 
 1. [Revisão](#Revisão)
 2. [Sobrecarga](#Sobrecarga)
