@@ -65,3 +65,35 @@ Por fim, vamos definir os atributos **SEM DEFINIR O TIPO DE DADO** destes, desta
 
 ## Projeto
 
+Não encontrei nada sobre diagrama de classe de projeto nas apostilas (2 fala somente sobre a de Domínio e 3 só cita a de Domínio).
+
+> Todo o conteúdo a partir daqui foi retirado da internet. Inseri todas as fontes de pesquisa nos seus respectivos pontos, não assumo qualquer responsabilidade sobre seus resultados em provas visto que a minha interpretação sobre as informações podem estar incorretas.
+
+Me baseando em outras pesquisas pela internet, entendo que outras formas de nomear o Diagrama de Classe de Domínio é chamá-lo também de **Modelo de Domínio** ou ainda **Modelo Conceitual**.
+
+O Diagrama de Classes de Projeto define classes como componentes de software / classes de software. **Fonte:** [**USP**](https://edisciplinas.usp.br/pluginfile.php/383727/mod_resource/content/2/Aula07_DiagramaDeClasse.pdf)
+
+Desta forma, como o Modelo de Domínio não representa os componentes de um Software, é de responsabilidade do Diagrama de Classe de Projeto fazer.
+
+O diagrama de classes evolui com o sistema
+e pode ter diferentes perspectivas:
+
+- Na análise – identificamos objetos (classes)
+no domínio do problema
+- No projeto – pensamos em objetos (classes)
+para a solução
+
+Isto é:
+
+- O modelo conceitual (análise) representa as
+classes no domínio do negócio em questão. Não
+leva em consideração restrições inerentes à
+tecnologia a ser utilizada na solução de um
+problema.
+- O modelo de classes de especificação (projeto) é
+obtido através da adição de detalhes ao modelo
+anterior conforme a solução de software escolhida.
+
+**Fonte:** [**UFPR**](http://www.inf.ufpr.br/silvia/ES/projeto/aulas/aula5.pdf)
+
+Recomendo leitura de outros conteúdos como este do [Daniel Cavalcanti](https://danielcavalcanti.com.br/home/diagrama-de-classes/).
