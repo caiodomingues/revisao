@@ -91,7 +91,9 @@ São utilizados para atribuir informações extras à variável, isto é, metada
 
 Entre outras que você pode conferir nas referências do ASP.NET;
 
-## Program.cs e Startup.cs
+## Arquivos de Configuração
+
+### Startup.cs
 
 O arquivo `Startup.cs` é o ponto de entrada do nível do aplicativo e lida com o pipeline de requisições, é acionada assim que o aplicativo é inicializado. Todo programa ASP.NET **DEVE**  ter o arquivo `startup.cs` (ao menos um, é possível ter mais de um).
 
@@ -103,6 +105,8 @@ Segundo à referência do ASP.NET:
 > - ConfigureServices e Configure são chamados pelo tempo de execução do ASP.NET Core quando o aplicativo é iniciado
 
 Você pode ler mais sobre [aqui](https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/startup?view=aspnetcore-2.2).
+
+### Program.cs
 
 O arquivo `Program.cs` é o local onde podemos criar um host para o aplicativo da web:
 
@@ -119,6 +123,52 @@ public class Program {
 }
 </startup>
 ```
+
+### Appsettings.json
+
+O arquivo `appsettings.json` é responsável por manter as `strings` e outros valores de configurações do seu projeto em ASP.NET, ele dispõe as informações na seguinte estruturação:
+
+```json
+{
+    "section0": {
+        "key0": "value",
+        "key1": "value"
+    },
+    "section1": {
+        "key0": "value",
+        "key1": "value"
+    },
+}
+```
+
+Um `appsettings.json`, costuma possuir os seguintes dados:
+
+```json
+{
+  "ConnectionStrings": {
+    "Conexao" :  "Server=(localdb)\mssqllocaldb; Database=NomeDoDatabase;"
+  },
+
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+```
+
+Com isto, no `startup.cs`, colocamos no `ConfigureServices()` o seguinte código:
+
+```cs
+services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("Conexao")));
+```
+
+Note a utilização do `AddDbContext<Contexto>` (explicado melhor mais pra frente) com os parâmetros de configuração do `appsettings.json`. Utilizamos o `Configuration.getConnectionString('Conexao')`, onde `Conexão` é uma *key* do nosso arquivo de *settings*.
+
+Você pode ter outros valores no seu arquivo de configuração, basta seguir o padrão de estruturação dos dados, por exemplo:
+
+![Reading settings for db config](https://www.webtrainingroom.com/blogimages/appsettings1.png)
 
 ## Object Relational Mapper (ORM)
 
