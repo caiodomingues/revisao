@@ -103,3 +103,26 @@ public class Program {
 }
 </startup>
 ```
+
+## Object Relational Mapper (ORM)
+
+O ORM é uma técnica de mapeamento de objeto relacional que permite fazer uma relação dos objetos com os dados que os mesmos representam.
+No nosso caso, utilizamos o Entity Framework ([Referência no MS Docs](https://docs.microsoft.com/pt-br/ef/)). De forma abstrata: o sistema passa a trabalhar da seguinte forma:
+
+![ORM](https://www.devmedia.com.br/imagens/articles/233575/orm.png)
+
+É possível encontrar um tutorial completo no [DevMedia](https://www.devmedia.com.br/entity-framework-tutorial/27764) sobre o Entity Framework, este que inclui os passos inicias e as abordagems de database, model e code first.
+
+### Entendendo
+
+Vamos utilizar a imagem anterior como base, e retratar duas áreas diferentes: a relacional e a orientada a objetos.
+
+Na relacional, prevalece os princípios matemáticos, de forma que possamos armazenar e gerenciar os dados, de maneira segura. É nesta que utilizamos o SQL para dizer ao banco de dados `o que` fazer e **não** como fazer.
+
+Na orientação a objetos, trabalhamos com calsses e métodos, logo, fundamentos da engenharia de software e que trabalham de maneira inversa ao relacional, dizem `como` fazer.
+
+O ORM é justamente a ponte/ligação entre as duas áreas, desta forma, ele permite que você salve seus objetos (Orientação a Objetos) no banco de dados (Relacional).
+
+Quase nunca é necessário escrever código SQL no ORM, já que o mesmo tem a responsabilidade de fazer isso pra você, em outras palavras: ele mapeia sua classe para o banco de dados, desta forma:
+
+![Como o ORM trabalha](https://www.devmedia.com.br/imagens/articles/233575/ORM-Overview.png)
