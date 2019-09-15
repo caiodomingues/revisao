@@ -139,7 +139,7 @@ Vamos utilizar a imagem anterior como base, e retratar duas áreas diferentes: a
 
 Na relacional, prevalece os princípios matemáticos, de forma que possamos armazenar e gerenciar os dados, de maneira segura. É nesta que utilizamos o SQL para dizer ao banco de dados `o que` fazer e **não** como fazer.
 
-Na orientação a objetos, trabalhamos com calsses e métodos, logo, fundamentos da engenharia de software e que trabalham de maneira inversa ao relacional, dizem `como` fazer.
+Na orientação a objetos, trabalhamos com classes e métodos, logo, fundamentos da engenharia de software e que trabalham de maneira inversa ao relacional, dizem `como` fazer.
 
 O ORM é justamente a ponte/ligação entre as duas áreas, desta forma, ele permite que você salve seus objetos (Orientação a Objetos) no banco de dados (Relacional).
 
@@ -150,3 +150,21 @@ Quase nunca é necessário escrever código SQL no ORM, já que o mesmo tem a re
 ![Como o ORM trabalha](https://www.devmedia.com.br/imagens/articles/233575/ORM-Overview.png)
 
 </center>
+
+## Classe de Contexto
+
+É a classe mais importante quando estamos trabalhando com o Entity Framework (explicado previamente no ORM). Ela representa a sessão com o banco de dados, descrevendo como executar as operações CRUD (Criar, Ler, Atualizar e Excluir - em tradução literal).
+
+Em outras palavras, a classe de contexto é utilizada para `query` ou salvar dados no banco de dados. É também utilizado para configurar classes de domínio, mapeamentos relacionados ao banco de dados, rastrear mudanças de configurações, caching, transações etc.
+
+```cs
+public class SampleContext : DbContext {
+
+    public SampleContext() : base(...) { }
+
+    public DbSet<Name> Name { get; set }
+    public DbSet<Age> Age { get; set }
+    public DbSet<Phone> Phone { get; set }
+    public DbSet<Address> Address { get; set }
+}
+```
