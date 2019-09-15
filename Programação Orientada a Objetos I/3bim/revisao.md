@@ -5,7 +5,7 @@
     2. [View](#View)
     3. [Controller](#Controller)
 2. [ASP.NET](#ASP.NET)
-3. [Análise](#Análise)
+3. [Estudo](#Estudo)
 
 ## Introdução
 
@@ -56,9 +56,7 @@ O ASP.NET é um Framework que extende o .NET para a web. Responsável por realiz
 - Por meio de um componente poderoso de URL-mapping, que lhe permite criar aplicativo com URLs compreensíveis e que sejam de fácil localização por buscadores. Além de poder utilizar um padrão para nomeação de URLs, reforçando a ideia de localização otimizada (SEO - Search Engine Optimization).
 - Suporte a recursos existentes do ASP.NET, pertitindo a utilização de recursos como autenticação de formulários e Windows Authentication, autorização URL (URL Authorization), data caching, gerenciamento de estado de sessão e perfil, o sistema de configuração e a arquitetura de provider.
 
-# Análise
-
-Esta seção descreve dicas diretamente relacionado às informações dadas pelo professor sobre a prova:
+# Estudo
 
 ## Data Annotations
 
