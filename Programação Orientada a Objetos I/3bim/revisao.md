@@ -19,7 +19,7 @@ Este modelo foi criado para aplicar diversos conceitos de segurança, usabilidad
 
 ## Model
 
-Os modelos são as classes da sua aplicação, definidas como visto pela matéria  de Análise de Projeto Orientado a Objetos.
+Os modelos são as classes da sua aplicação, definidas como visto pela matéria de Análise de Projeto Orientado a Objetos.
 
 > *pausa para os risos*
 
