@@ -90,7 +90,7 @@ Você pode ler mais sobre [aqui](https://docs.microsoft.com/pt-br/aspnet/core/fu
 
 O arquivo `Program.cs` é o local onde podemos criar um host para o aplicativo da web:
 
-```
+```cs
 public class Program {
     public static void Main(string[] args) {
         BuildWebHost(args).Run();
