@@ -67,7 +67,7 @@ Esta seção descreve dicas diretamente relacionado às informações dadas pelo
 São utilizados para atribuir informações extras à variável, isto é, metadados. Podemos utilizá-los para definir:
 
 - Chave primária usando `[Key]`;
-- Nome de exibição da página usando `['Dsiplay(Name="exemplo")]`
+- Nome de exibição da página usando `['Display(Name="exemplo")]`
 - Validações, como um campo obrigatório usando `[Required]`, `[Required(ErrorMessage="exemplo de mensagem de erro")`;
 - Uma expressão regular para filtrar o campo usando `[RegularExpression(".+\\@.+\\..+")`, também possui o ErrorMessage como opção;
 - Tamanho de caracteres no campo usando `[StringLength(10,MinimumLength=4)]`;
