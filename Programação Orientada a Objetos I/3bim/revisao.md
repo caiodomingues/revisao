@@ -24,7 +24,9 @@ Os modelos são as classes da sua aplicação, definidas como visto pela matéri
 > *pausa para os risos*
 
 <center>
+    
 ![class-diagram](https://aec67204-a-62cb3a1a-s-sites.googlegroups.com/site/mindbitufrpe/diagramas/diagrama-de-classes/Class%20Diagram0.png)
+
 </center>
 
 Nestes modelos você precisa definir todos os atributos que você vai precisar em cada classe.
@@ -36,7 +38,9 @@ View é o layout da aplicação, ou seja, o que o cliente vai "ver" na tela.
 É possivel trazer uma variavel e/ou atributo criada do modelo para a view, isto significa que sempre que você trocar no seu modelo isto vai automaticamente trocar na sua view também, ou seja, uma aplicação dinâmica. O `Razor` é a View Engine responsável pelo tratamento das informações para a página, ele permite a inserção de código C# em conjunto com o HTML de uma view.
 
 <center>
+    
 ![razor render](https://docs.microsoft.com/en-us/xamarin/cross-platform/platform/razor-html-templates/images/image12_700x421.png)
+
 </center>
 
 Dentro da pasta View da sua aplicação haverá uma pasta `Shared`. A partir desta, podemos entender melhor o porque a introdução do conceito `DRY`.
@@ -50,7 +54,9 @@ Se um site possui uma navbar (menu) em todas as outras páginas, você não prec
 Controllers são responsáveis por realizar as funções da página, ou seja, este controllers são os responsáveis por saber qual view pertence a qual modelo e para onde vai os dados recebidos pelo cliente ou pelo servidor. Isto é, ser responsável por tratar as requisições, sejam estas GET, POST etc.
 
 <center>
+
 ![mvc](https://firebirdsql.org/file/documentation/reference_manuals/fbdevgd-en/html/images/fbdevgd30_mvc_001_en.png)
+
 </center>
 
 # ASP.NET
@@ -67,7 +73,9 @@ O ASP.NET é um Framework que extende o .NET para a web. Responsável por realiz
 ## Data Annotations
 
 <center>
+
 ![data annotations](http://keyurraval.com/blogimages/Asp_Net_MVC_DataAnnotation_Range_Attribute_1.png)
+
 </center>
 
 São utilizados para atribuir informações extras à variável, isto é, metadados. Podemos utilizá-los para definir:
@@ -118,7 +126,9 @@ O ORM é uma técnica de mapeamento de objeto relacional que permite fazer uma r
 No nosso caso, utilizamos o Entity Framework ([Referência no MS Docs](https://docs.microsoft.com/pt-br/ef/)). De forma abstrata: o sistema passa a trabalhar da seguinte forma:
 
 <center>
+
 ![ORM](https://www.devmedia.com.br/imagens/articles/233575/orm.png)
+
 </center>
 
 É possível encontrar um tutorial completo no [DevMedia](https://www.devmedia.com.br/entity-framework-tutorial/27764) sobre o Entity Framework, este que inclui os passos inicias e as abordagems de database, model e code first.
@@ -136,5 +146,7 @@ O ORM é justamente a ponte/ligação entre as duas áreas, desta forma, ele per
 Quase nunca é necessário escrever código SQL no ORM, já que o mesmo tem a responsabilidade de fazer isso pra você, em outras palavras: ele mapeia sua classe para o banco de dados, desta forma:
 
 <center>
+
 ![Como o ORM trabalha](https://www.devmedia.com.br/imagens/articles/233575/ORM-Overview.png)
+
 </center>
