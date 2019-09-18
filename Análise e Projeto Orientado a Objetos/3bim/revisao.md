@@ -67,6 +67,12 @@ Por fim, vamos definir os atributos **SEM DEFINIR O TIPO DE DADO** destes, desta
 
 Não encontrei nada sobre diagrama de classe de projeto nas apostilas (2 fala somente sobre a de Domínio e 3 só cita a de Domínio).
 
+### Edit
+
+> Me disseram que tá na apostila 3 (pág 16 aproximadamente), mas eu vou manter o que eu já tinha escrito aqui porque deu trabalho :thumbsup:, se tá certo ou não, eu não faço ideia, é noix.
+
+---
+
 > Todo o conteúdo a partir daqui foi retirado da internet. Inseri todas as fontes de pesquisa nos seus respectivos pontos, não assumo qualquer responsabilidade sobre seus resultados em provas visto que a minha interpretação sobre as informações podem estar incorretas.
 
 Me baseando em outras pesquisas pela internet, entendo que outras formas de nomear o Diagrama de Classe de Domínio é chamá-lo também de **Modelo de Domínio** ou ainda **Modelo Conceitual**.
