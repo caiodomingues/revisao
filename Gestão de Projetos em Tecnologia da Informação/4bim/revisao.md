@@ -8,6 +8,8 @@
 
 É uma das áreas mais importantes para o gerenciamento de projetos: é o elo de ligação entre o Gerente de Projeto, os stakeholders, a equipe, as ideias e as informações. Tomam até 90% do tempo do gerente e a maioria dos problemas são provenientes de falhas de comunicação.
 
+[![Hackatomic](../../ad.png)](https://hackatomic.com)
+
 ### Quantidade x Qualidade
 
 A quantia de informações consumidas não garante qualidade, pois assim como informações de menos são prejudiciais, informações em excesso também. Deve haver um equilibrio para garantir a qualidade das informações.
@@ -36,6 +38,8 @@ Documentar o mais importante, informações precisas e concisas
 - Reportar;
 - Administração geral do projeto, como marketing e vendas, relações públicas;
 - Administração de registros como atas, memorandos, cartas, boletins, relatórios, especificações, documentos de aquisição.
+
+[![Hackatomic](../../ad.png)](https://hackatomic.com)
 
 ## Barreiras de Comunicação
 
