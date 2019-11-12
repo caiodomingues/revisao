@@ -14,8 +14,8 @@ Subprogramas = Procedures e Functions;
 
 ### Diferença entre Blocos Anônimos e Subprogramas
 
-- | Blocos Anônimos | Subprogramas
-- | --------------- | ------------
+? | Blocos Anônimos | Subprogramas
+-- | --------------- | ------------
 Nomeado | :x: | :heavy_check_mark:
 Compilado | Todas as vezes | Apenas uma vez
 Armazenamento de dados | :x: | :heavy_check_mark:
@@ -72,8 +72,8 @@ Podem ser de três tipos:
 
 Note que se o tipo de parâmetro não for informado, o **IN** será usado por padrão;
 
-- | IN | OUT | IN OUT
-- | -- | --- | ------
+? | IN | OUT | IN OUT
+-- | -- | --- | ------
 Default | :heavy_check_mark: | :x: | :x:
 Especificação de valor | No subprograma | Retornado para a chamada | Ambos anteriores
 Parâmetros | O parâmetro formal funciona como uma constante | Variável **não** inicializada | Variável inicializada
