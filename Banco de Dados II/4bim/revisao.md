@@ -60,6 +60,10 @@ BEGIN
 END [nome_da_procedure];
 ```
 
+> pausa pra propaganda AUHHAUHUA
+
+![![Hackatomic](https://hackatomic.com)](ad.png)
+
 ## Parâmetros
 
 Podem ser de três tipos:
@@ -124,6 +128,8 @@ CREATE OR REPLACE PROCEDURE exemplo (
     END;
 ```
 
+![![Hackatomic](https://hackatomic.com)](ad.png)
+
 ## Functions
 
 Assim como Procedures, é um bloco nomeado, mas que **retorna um valor**. Também pode ser armazenada no banco de dados para execuções repetidas e pode ser chamada como parte de uma expressão / fornecimento de valor para um parâmetro de outro subprograma.
@@ -179,6 +185,8 @@ OU
 OU
 
 `SELECT job_id, get_sal(employee_id) FROM employees`
+
+![![Hackatomic](https://hackatomic.com)](ad.png)
 
 ## Packages
 
