@@ -15,7 +15,7 @@ Subprogramas = Procedures e Functions;
 ### Diferença entre Blocos Anônimos e Subprogramas
 
 ? | Blocos Anônimos | Subprogramas
--- | --------------- | ------------
+:--: | :--: | :--:
 Nomeado | :x: | :heavy_check_mark:
 Compilado | Todas as vezes | Apenas uma vez
 Armazenamento de dados | :x: | :heavy_check_mark:
