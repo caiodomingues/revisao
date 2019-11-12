@@ -73,7 +73,7 @@ Podem ser de três tipos:
 Note que se o tipo de parâmetro não for informado, o **IN** será usado por padrão;
 
 ? | IN | OUT | IN OUT
--- | -- | --- | ------
+:--: | :--: | :--: | :--:
 Default | :heavy_check_mark: | :x: | :x:
 Especificação de valor | No subprograma | Retornado para a chamada | Ambos anteriores
 Parâmetros | O parâmetro formal funciona como uma constante | Variável **não** inicializada | Variável inicializada
@@ -150,8 +150,8 @@ END [nome_da_funcao];
 
 Antes comparamos blocos anônimos com subprogramas, agora, vamos comparar diretamente procedures e funções:
 
-- | Procedures | Funções
-- | ---------- | -------
+? | Procedures | Funções
+:--: | :--: | :--:
 Execução | Executados como uma instrução PL/SQL | Executados como parte de uma expressão
 Cláusula de retorno | :x: | Obrigatório
 Retorno de valor | Pode retornar caso haja parâmetros de saída | **Deve** retornar um **único** valor
