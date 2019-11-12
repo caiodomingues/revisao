@@ -4,8 +4,6 @@ Subprogramas = Procedures e Functions;
 
 ## Procedures
 
-### Pontos Positivos
-
 - Reaproveitamento de código – o código pode ser utilizado por diferentes aplicações
 - Rapidez – O acesso é feito dentro do próprio banco de dados
 - Controle de alterações – modificações realizadas em um só lugar
