@@ -62,7 +62,7 @@ END [nome_da_procedure];
 
 > pausa pra propaganda AUHHAUHUA
 
-![![Hackatomic](https://hackatomic.com)](../../ad.png)
+[![Hackatomic](https://hackatomic.com)](../../ad.png)
 
 ## Parâmetros
 
