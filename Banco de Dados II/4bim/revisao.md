@@ -62,7 +62,7 @@ END [nome_da_procedure];
 
 > pausa pra propaganda AUHHAUHUA
 
-![![Hackatomic](https://hackatomic.com)](ad.png)
+[![Hackatomic](../../ad.png)](https://hackatomic.com)
 
 ## Parâmetros
 
@@ -128,7 +128,7 @@ CREATE OR REPLACE PROCEDURE exemplo (
     END;
 ```
 
-![![Hackatomic](https://hackatomic.com)](ad.png)
+[![Hackatomic](../../ad.png)](https://hackatomic.com)
 
 ## Functions
 
@@ -186,7 +186,7 @@ OU
 
 `SELECT job_id, get_sal(employee_id) FROM employees`
 
-![![Hackatomic](https://hackatomic.com)](ad.png)
+[![Hackatomic](../../ad.png)](https://hackatomic.com)
 
 ## Packages
 
