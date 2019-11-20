@@ -19,6 +19,8 @@ Descreve a lógica de criação, entrega e captura de valor por parte de uma org
 
 ---
 
+[![Hackatomic](../../ad.png)](https://hackatomic.com)
+
 ### Fatores de definição
 
 - Escalável: crescer aceleradamente em receita e pouco em custos;
@@ -44,6 +46,8 @@ Quando uma startup já está no mercado há alguns anos e fatura milhões/ano, e
 4. Tração = modelo de negócio estabelecido, suficiente para reinvestir suas receitas e apresenta um crescimento rápido
 5. Scale-up = explicado acima.
 
+[![Hackatomic](../../ad.png)](https://hackatomic.com)
+
 ### Incubação
 
 Incubadoras não investem dinheiro ou viram sócias da startup. 
@@ -63,6 +67,8 @@ Grupos ou pessoas que investem recursos financeiros visando retorno.
 Verificam o negócio e o modelo, avaliam quanto e para que a empresa precisa de dinheiro. Analisam o formato de investimento ideal.
 
 Trazem conhecimento, contatos e gestão.
+
+[![Hackatomic](../../ad.png)](https://hackatomic.com)
 
 ## Plano de Negócios
 
