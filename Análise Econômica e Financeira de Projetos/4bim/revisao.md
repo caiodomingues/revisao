@@ -1,7 +1,7 @@
 # Revisão
 
-1. [Startup](##Startup)
-2. [Plano de Negócios](##Plano-de-negócios)
+1. [Startup](#Startup)
+2. [Plano de Negócios](#Plano-de-negócios)
 
 ## Startup
 
