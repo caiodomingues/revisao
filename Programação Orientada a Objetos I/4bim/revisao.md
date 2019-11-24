@@ -10,7 +10,7 @@
 3. [Camada de Negócio](#Camada-de-negócio)
     1. [Problema](#Problema)
 4. [Autenticação e Autorização](#Autenticação-e-autorização)
-5. [Exercicios de Revisão](#Exercicios-de-revisão)
+5. [Exercicios de Revisão](#Exercícios-de-revisão)
 
 > **Notas deste resumo:**
 > O material do portal em boa parte se encontra como forma de tutorial para incluir o Bootstrap, Partial Views, Autenticação e Camada de Negócio, logo, todo conteúdo abordado é um resumo de como realizar e o que isto altera no código, podendo assim, **divergir com o apresentado em sala!** Logo, me isento de toda e qualquer responsabilidade para com este resumo, apresentando neste conhecimentos aos quais foram de meu entendimento.
