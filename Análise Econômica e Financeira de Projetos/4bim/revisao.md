@@ -50,7 +50,7 @@ Quando uma startup já está no mercado há alguns anos e fatura milhões/ano, e
 
 ### Incubação
 
-Incubadoras não investem dinheiro ou viram sócias da startup. 
+Incubadoras não investem dinheiro ou viram sócias da startup.
 
 As empresas ficam até 2~3 anos conforme o edital e as áreas de competências são trabalhas por consultores.
 
