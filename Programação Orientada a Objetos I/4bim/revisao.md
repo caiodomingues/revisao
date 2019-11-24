@@ -192,11 +192,11 @@ Para usar a autenticação, precisamos:
 
 [![Hackatomic](../../ad.png)](https://hackatomic.com)
 
-### 4. a. Quando são executados os códigos <environment include=”Development”> e <environment exclude=”Development”>?
+### 4. a. Quando são executados os códigos \<environment include=”Development”> e \<environment exclude=”Development”>?
 
 Quando o projeto é inicializado, verifica-se o ambiente em que o projeto está sendo executado, os mais comuns são Desenvolvimento, Homologação e Produção. No caso, os códigos incluem ou excluem as linhas dentro das tags conforme o ambiente configurado.
 
-### 4. b. Qual a finalidade da tag aso asp-fallback-href?
+### 4. b. Qual a finalidade da tag asp-fallback-href?
 
 > Resposta resumida: servem como uma espécie de segunda opção para carregar um recurso indisponível na  opção principal.
 
