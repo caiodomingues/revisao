@@ -341,6 +341,6 @@ De acordo com a imagem: as classes que possuem as regras de negócio (os modelos
 
 ---
 
-Obrigado Vinny pela ajuda neste resumo :heart:
+Obrigado [Vinny](https://github.com/VinnyBittencourt) pela ajuda neste resumo :heart:
 
 [Veja o gabarito da prova.](https://hackatomic.com)
