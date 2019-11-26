@@ -1,6 +1,6 @@
 # Revisão
 
-> Esse resumo foi inicialmente escrito pelo Marcos, e eu, Caio, complementei as informações em sua totalidade, com base no que eu já produzi na área de desenvolvimento de jogos com o Sonar, LightIO e outros jogos. Novamente, digo que **algumas informações aqui dispostas são completamnete pessoais, mas não interferem no resumo.**
+> Esse resumo foi inicialmente escrito pelo Marcos, e eu, Caio, apenas complementei as informações com base no que eu já produzi na área de desenvolvimento de jogos com o Sonar, LightIO e outros jogos. Novamente, digo que **algumas informações aqui dispostas são completamente pessoais, mas não interferem no resumo.**
 
 [![Hackatomic](../../ad.png)](https://hackatomic.com)
 
