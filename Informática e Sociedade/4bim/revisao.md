@@ -4,7 +4,7 @@
 
 Eu vou escrever o que entendi (resumo dos resumos, literalmente) brevemente de cada coisa pra facilitar o estudo, mas o resumo do Marcus Vinícius e Pedro Lisboa foram misturados (para garantir que os pontos ressaltados pelos dois sejam dado mais importância).
 
-[Clique aqui caso você deseja ir direto ao resumo do conteúdo](#Resumo-do-conteúdo).
+[Clique aqui caso você deseja ir direto ao resumo original deles](#Resumo-do-conteúdo).
 
 > Vai ter propaganda pra caralho (tem 600 linhas  de conteúdo do livro no arquivo kkkk)
 
